@@ -1,5 +1,5 @@
 body{
-    background-color: #E8F9FD;
+    background-color: #FFF3E4;
 }
 
 *{
@@ -48,46 +48,15 @@ ul li:hover a{
     background-color: black;
 }
 
-.well{
-    text-align: center;
-    margin-top: 290px;
-    margin-left: 290px;
-    color: #25316D;
-    user-select: none;
+h2{
+    margin-left: 700px;
+    margin-top: 50px;
 }
 
-.content{
-    margin-left: 550px;
-    margin-top: 230px;
-    position: absolute;
-    top: -19%;
-    right: 10%;
-    user-select: none;
+form{
+    margin: 100px 200px 200px 300px;
+    font-weight: bold;
+    color: #518B8E;
+    display: flex;
+    gap: 10px;
 }
-
-table{
-    border-collapse: collapse;
-    font-size: 15pt;
-    border: 1px solid black;
-}
-
-td{
-    
-    padding: 60px;
-    height: 30px;
-    padding-top: 9px;
-    padding-bottom: 9px;
-    background-color: #518B8E;
-}
-
-table tr th{
-    background-color: #CFD2CF;
-}
-
-
-
-
-
-
-
-    

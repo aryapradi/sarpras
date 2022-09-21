@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="formadd.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="sidebar">
+        <header>SarPras</header>
+        <ul>
+            <li><a href="Databarang.php"><i class="#"></i>Data Barang</a></li>
+            <li><a href="Datapeminjam.php"><i class="#"></i>Data Peminjam</a></li>
+        </ul>
+    </div>
+    <div class="h2">
+        <h2>Tambah Barang</h2>
+    </div>
+    <div class="content">
+        <form method="post" action="simpan.php">
+            <p><label>Nomor : <input type="number"  name="Nomor" required="required"></label></p>
+            <p><label>Nama Barang : <input type="text"  name="Nama Barang"></label></p>
+            <p><label>Jenis Barang : <input type="text"  name="Jenis Barang"></label></p>
+            <p><label>Stock Barang : <input type="number"  name="Stock Barang"></label></p>
+            <input type="submit" name="simpan" value="simpan">
+    
+        </form>
+    </div>
+
+    
+</body>
+</html>

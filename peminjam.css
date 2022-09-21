@@ -56,12 +56,12 @@ ul li:hover a{
     user-select: none;
 }
 
-.content{
-    margin-left: 550px;
+.peminjam{
+    margin-left: 500px;
     margin-top: 230px;
     position: absolute;
     top: -19%;
-    right: 10%;
+    right: 3%;
     user-select: none;
 }
 
@@ -74,7 +74,7 @@ table{
 td{
     
     padding: 60px;
-    height: 30px;
+    height: 40px;
     padding-top: 9px;
     padding-bottom: 9px;
     background-color: #518B8E;
@@ -83,11 +83,3 @@ td{
 table tr th{
     background-color: #CFD2CF;
 }
-
-
-
-
-
-
-
-    

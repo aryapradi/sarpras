@@ -1,5 +1,5 @@
 body{
-    background-color: whitesmoke;
+    background-color: #FFF3E4;
 }
 
 *{
@@ -47,10 +47,16 @@ ul li:hover a{
     background-color: black;
 }
 
-.well{
-    text-align: center;
-    margin-top: 290px;
-    margin-left: 290px;
-    color: #25316D;
-    user-select: none;
+h2{
+    margin-left: 700px;
+    margin-top: 15px;
 }
+
+form{
+    font-weight: bold;
+    color: #518B8E;
+    margin: 100px 200px 100px 400px;
+    display: flex;
+    gap: 10px;
+}
+
